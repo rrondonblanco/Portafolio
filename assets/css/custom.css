@@ -18,17 +18,15 @@ h2{
     height: 3px;
 }
 
-.hero-section{
+.jumbotron{
     text-align: center;
     background-image: url('../img/roberto.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
-    text-shadow: 0.125em 0.25em 0.125em #707070;
     padding: 30.25rem 3.125rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 50px;
+    height: 10%;
+    
 
   }
 
