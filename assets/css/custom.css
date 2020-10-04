@@ -39,3 +39,24 @@ h2{
 .titulo{
     margin-bottom: auto;
 }
+
+.descripcion{
+    font-size: 25pt;
+    font-weight: 500 ;
+}
+
+.separation{
+    height: 2px;
+    border: none;
+    color: #333;
+    background-color: #333;
+    width: 10%;
+}
+
+.separation2{
+    height: 2px;
+    border: none;
+    color: white;
+    background-color: white;
+    width: 10%;
+}
