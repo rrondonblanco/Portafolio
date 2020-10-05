@@ -47,13 +47,28 @@
           </div>
         </div>
     </nav>
-    
-    
-    <section id="">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-            <h1 class="display-4">YO SOY </h1>
-            <p class="lead">ROBERTO RONDON.</p>
+   
+     <!--  PRUEBA IMAGEN
+
+   <div class="container">
+        <section id="" class="imagen mb-5">
+            <div class="inicio">
+                <img class=" img-fluid" src="assets/img/logo-portafolio.jpg" alt="Responsive image">
+                <div class="title-name">
+                    <h1 class="im">YO SOY </h1>
+                    <hr/>
+                    <p class="name">ROBERTO RONDON.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    -->
+
+    <section id="inicio">
+        <div class="jumbotron jumbotron-fluid mt-5">
+            <div class="container bienvenida">
+                <p>ROBERTO RONDON</p>
             </div>
         </div>
     </section>
@@ -108,7 +123,7 @@
         </div>   
     </section>
 
-    <section class="container p-3 my-1 " id="sobre-mi">
+    <section class="container p-3 my-1 d-none d-sm-none d-md-block " id="sobre-mi">
         <hr class="separation" />
         <div class="container p-6 text">
           <div class="row">
@@ -155,10 +170,10 @@
         </div>
     </section>
 
-    <section>
+    <section class="fondo">
         <div id="trabajos" class="container-fluid  py-5 col-12 pb-2 bg-dark " >
             <div class="container">
-                <h2 class="text-center text-white">MIS ÚLTIMOS TRABAJOS</h2>
+                <h2 class="text-center font-weight-bold text-white mt-5">MIS ÚLTIMOS TRABAJOS</h2>
                 <hr class="separation2" />
                 <div class="card-deck py-5">
                     <div class="card">
@@ -187,7 +202,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container mb-5">
                 <div class="card-deck">
                     <div class="card">
                     <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
@@ -287,36 +302,37 @@
         </div>
     </div>
 
-    <div class="container-fluid text-center bg-dark text-white newsletter py-5 " id="newsletter" >
-        <div class="card-body">
-          <h2 class="text-uppercase">¿NECESITAS TRABAJO WEB PROFESIONAL?</h2>
-          <h3 class="card-subtitle mb-2">envianos tus datos y pronto te contactaremos <span class="text-logotipo"></span></h3>       
-          
-          <button id="contacto" type="button" class="btn btn-default border border-white text-white btn-lg my-5 px-5" data-toggle="modal" data-target="#exampleModal" data-placement="bottom" title="Enviar Email">CONTÁCTAME</button>
-          
+    <div class="newsletter">
+        <div class="container-fluid text-center bg-dark text-white newsletter py-5 " id="newsletter" >
+            <div class="card-body">
+            <h2 class="text-uppercase">¿NECESITAS TRABAJO WEB PROFESIONAL?</h2>
+            <h3 class="card-subtitle mb-2">envianos tus datos y pronto te contactaremos <span class="text-logotipo"></span></h3>       
+            
+            <button id="contacto" type="button" class="btn btn-default border border-white text-white btn-lg my-5 px-5" data-toggle="modal" data-target="#exampleModal" data-placement="bottom" title="Enviar Email">CONTÁCTAME</button>
+            </div>
         </div>
     </div>
-
-     <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title text-center" id="contacto">SUSCRIBETE</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title text-center" id="contacto">SUSCRIBETE</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="typeform-widget" data-url="https://form.typeform.com/to/KtewbtvO" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=KtewbtvO&utm_source=typeform.com-01EK81PS9YFHTSW3E8N8AHXYFZ-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
         </div>
-        <div class="modal-body">
-            <div class="typeform-widget" data-url="https://form.typeform.com/to/KtewbtvO" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=KtewbtvO&utm_source=typeform.com-01EK81PS9YFHTSW3E8N8AHXYFZ-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
     </div>
-  </div>
 
     <footer class="bg-dark text-center text-light p-3" id="newsletter">
         <div class="loguito">
