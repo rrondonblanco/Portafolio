@@ -21,6 +21,8 @@
     <title>Mi Portafolio</title>
 </head>
 <body>
+    
+    <!-- BARRA NAV -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
        
         <div class="container">
@@ -48,23 +50,7 @@
         </div>
     </nav>
    
-     <!--  PRUEBA IMAGEN
-
-   <div class="container">
-        <section id="" class="imagen mb-5">
-            <div class="inicio">
-                <img class=" img-fluid" src="assets/img/logo-portafolio.jpg" alt="Responsive image">
-                <div class="title-name">
-                    <h1 class="im">YO SOY </h1>
-                    <hr/>
-                    <p class="name">ROBERTO RONDON.</p>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    -->
-
+    <!-- IMAGEN Y TITULO -->
     <section id="inicio">
         <div class="jumbotron jumbotron-fluid mt-5">
             <div class="container bienvenida">
@@ -75,6 +61,8 @@
         </div>
     </section>
 
+
+    <!-- CARRUSEL -->
     <div class="container mt-5 pt-5 d-none d-sm-none d-md-block">
         <div class="col-12">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -116,6 +104,7 @@
         </div>
     </div> 
 
+    <!-- TITULO DESCRIPCION -->
     <section id="sobre-mi" class="container text-center my-3 py-3 d-none d-sm-none d-md-block">
         <div class="subtitulo">
             <h2 class="display-3 font-weight-bold my-4">COMPROMISO PROFESIONAL</h2>
@@ -125,6 +114,8 @@
         </div>   
     </section>
 
+
+    <!-- DESCRIPCION -->
     <section class="container p-3 my-1 d-none d-sm-none d-md-block " id="sobre-mi">
         <hr class="separation" />
         <div class="container p-6 text">
@@ -143,6 +134,7 @@
         </div>
     </section>
     
+    <!-- EXPERIENCIA -->
     <section class="container p-3 my-5 col-12 " id="experiencias">
         <div class="p-6 text centrado col-12">
             <div class="row">
@@ -174,6 +166,7 @@
         </div>
     </section>
 
+    <!-- TRABAJOS -->
     <section class="fondo">
         <div id="trabajos" class="container-fluid  py-5 col-12 pb-2 bg-dark " >
             <div class="container">
@@ -209,7 +202,7 @@
             <div class="container mb-5">
                 <div class="card-deck">
                     <div class="card">
-                    <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+                        <a href="#" data-toggle="modal" data-target="#iguana"><img src="assets/img/iguana_page.png" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">IGUANAS</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -217,7 +210,7 @@
                     </div>
                     </div>
                     <div class="card">
-                    <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+                        <a href="#" data-toggle="modal" data-target="#suricata"><img src="assets/img/suricata.png" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">SURICATA</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -225,7 +218,7 @@
                     </div>
                     </div>
                     <div class="card">
-                    <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+                        <a href="#" data-toggle="modal" data-target="#ricomida"><img src="assets/img/ricomida.png" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">RICOMIDA</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -278,6 +271,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <a href="https://fastcogroup.com/" target="_blanck"><button type="button" data-toggle="tooltip" data-placement="right" title="¿QUIERES VER LA PAGINA?" class="btn btn-primary">VER MÁS</button></a>
             </div>
           </div>
         </div>
@@ -306,26 +300,80 @@
         </div>
     </div>
 
-    <!--
-    <section class="container-fluid  col-12 py-1 pb-2">
-        <div class="col-12 ">
-            <div class="container  col-12 col-sm-6 text-center text-white newsletter py-5 " id="newsletter" >
-                <div class="card-body">
-                <h2 class="text-uppercase">¿NECESITAS TRABAJO WEB PROFESIONAL?</h2>
-                <h3 class="card-subtitle mb-2">envianos tus datos y pronto te contactaremos <span class="text-logotipo"></span></h3>       
-                
-                <button id="contacto" type="button" class="btn btn-default border border-white text-white btn-lg my-5 px-5" data-toggle="modal" data-target="#exampleModal" data-placement="bottom" title="Enviar Email">CONTÁCTAME</button>
-                </div>
+    <!-- Modal -->
+    <div class="modal fade" id="iguana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PAGINA WEB IGUANAS</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
+            <div class="modal-body">
+              <img src="assets/img/iguana_page.png" class="img-fluid my-3" alt="iguana">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
         </div>
-    </section>
-    
-    -->
+    </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="suricata" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PAGINA WEB SURICATA</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/suricata.png" class="img-fluid my-3" alt="suricata">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ricomida" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PAGINA WEB RICOMIDA</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/ricomida.png" class="img-fluid my-3" alt="ricomida">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- FORMULARIO -->
     <div class="container-fluid text-center bg-danger text-white newsletter py-5" id="newsletter" >
         <div class="card-body">
-          <h2 class="text-uppercase">¿BUSCAS ALGO?</h2>
-          <h3 class="card-subtitle mb-2">aquí te tenemos calidad <span class="text-logotipo"></span></h3>
+          <h2 class="text-uppercase">¿BUSCABAS ALGO?</h2>
+          <h3 class="card-subtitle mb-2 text-light">aquí te tenemos calidad </h3>
           
             
           

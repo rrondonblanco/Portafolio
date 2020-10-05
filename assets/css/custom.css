@@ -182,3 +182,8 @@ h5{
 .loguito{
     max-width: 50%;
 }
+
+.card-subtitle{
+    font-weight: 300;
+    font-size: 20pt;
+}
