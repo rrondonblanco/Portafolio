@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    
     <!--Mi Estilo-->
     <link rel="stylesheet" href="assets/css/custom.css">
     <title>RRONBLANCO</title>
@@ -55,6 +57,47 @@
             </div>
         </div>
     </section>
+
+    <div class="container mt-5 pt-5 d-none d-sm-none d-md-block">
+        <div class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-3"><img src="assets/img/johan.jpg" alt=""></div>
+                                
+                            <div class="col-3"><img src="assets/img/cuppon.png" alt=""></div>
+                                
+                            <div class="col-3"><img src="assets/img/fastco.jpg" alt=""></div>
+                                
+                            <div class="col-3"><img src="assets/img/mirega.jpg" alt=""></div>
+                                
+                        </div>
+                    </div>
+                
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3"><img src="assets/img/meet_coffee.png" alt=""></div>
+                                
+                            <div class="col-3"><img src="assets/img/ricomida.png" alt=""></div>
+                                
+                            <div class="col-3"> <img src="assets/img/suricata.png" alt=""></div>
+                               
+                            <div class="col-3"><img src="assets/img/dmark.png" alt=""></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+                <ol class="carousel-indicators pt-3">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <br>
+            </div>
+        </div>
+    </div> 
 
     <section id="sobre-mi" class="container text-center my-3 py-3 d-none d-sm-none d-md-block">
         <div class="subtitulo">
@@ -111,74 +154,144 @@
         </div>
     </section>
 
-    <div id="trabajos" class="container-fluid  py-5 col-12 pb-2 bg-dark " >
-        <div class="container">
-            <h2 class="text-center text-white">MIS ÚLTIMOS TRABAJOS</h2>
-            <hr class="separation2" />
-            <div class="card-deck py-5">
-                <div class="card">
-                <img src="assets/img/hernan.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <section>
+        <div id="trabajos" class="container-fluid  py-5 col-12 pb-2 bg-dark " >
+            <div class="container">
+                <h2 class="text-center text-white">MIS ÚLTIMOS TRABAJOS</h2>
+                <hr class="separation2" />
+                <div class="card-deck py-5">
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#hernan"><img src="assets/img/hernan.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">WEB HERNAN LEAL</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#fastco"><img src="assets/img/fastco.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#johan"><img src="assets/img/johan.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
                 </div>
-                </div>
-                <div class="card">
-                <img src="assets/img/fastco.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                </div>
-                <div class="card">
-                <img src="assets/img/johan.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
+            </div>
+            <div class="container">
+                <div class="card-deck">
+                    <div class="card">
+                    <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="card-deck">
-                <div class="card">
-                <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                </div>
-                <div class="card">
-                <img src="assets/img/suricata.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                </div>
-                <div class="card">
-                <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                </div>
+    </section>  
+   
+    <!-- Modal -->
+    <div class="modal fade" id="hernan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PAGINA WEB HERNAN LEAL</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
+            <div class="modal-body">
+              <img src="assets/img/hernan-leal.jpg" class="img-fluid my-3" alt="panqueques">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+    <div class="modal fade" id="fastco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PAGINA WEB FASTCO</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/fastco2.jpg" class="img-fluid my-3" alt="panqueques">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
         </div>
     </div>
-   
-    
+      
+    <!-- Modal -->
+    <div class="modal fade" id="johan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PAGINA WEB JOHANSMART</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/johan.jpg" class="img-fluid my-3" alt="panqueques">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
     <div class="container-fluid text-center bg-dark text-white newsletter py-5 " id="newsletter" >
         <div class="card-body">
           <h2 class="text-uppercase">¿NECESITAS TRABAJO WEB PROFESIONAL?</h2>
           <h3 class="card-subtitle mb-2">envianos tus datos y pronto te contactaremos <span class="text-logotipo"></span></h3>       
           
-          <button id="contacto" type="button" class="btn btn-default border border-white text-white btn-lg my-5 px-5" data-toggle="modal" data-target="#exampleModal" data-placement="bottom" title="Enviar Email">Empezar</button>
+          <button id="contacto" type="button" class="btn btn-default border border-white text-white btn-lg my-5 px-5" data-toggle="modal" data-target="#exampleModal" data-placement="bottom" title="Enviar Email">CONTÁCTAME</button>
           
         </div>
     </div>
@@ -205,6 +318,10 @@
   </div>
 
     <footer class="bg-dark text-center text-light p-3" id="newsletter">
+        <div class="loguito">
+            <img src="assets/img/LOGUITO.png" alt="">
+        </div>
+        
         <div class="container p-6 text">
             <div class="row">
                 <div class="col-md-6" >
@@ -217,8 +334,8 @@
                         <div class="iconos">
                             <a href="https://github.com/rrondonblanco?tab=repositories" target="blanck" ><i class="fab fa-github-square"></i></a>
                             <a href="https://www.linkedin.com/in/roberto-rond%C3%B3n-25889981/" target="blanck"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/rronblanco_design/"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.facebook.com/roberto.rondon.393"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/rronblanco_design/" target="blanck" ><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/roberto.rondon.393" target="blanck" ><i class="fab fa-facebook-square"></i></a>
                         </div>
                     </div>
                 </div>
